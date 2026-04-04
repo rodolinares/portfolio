@@ -1,9 +1,22 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AppLayout } from '@/components/layout/app-layout'
+
+import { HomePage } from '@/pages/home'
+import { AboutPage } from '@/pages/about'
+import { ProjectsPage } from '@/pages/projects'
+import { ContactPage } from '@/pages/contact'
 
 export default function App() {
   return (
-    <AppLayout>
-      <div className="p-6">Layout ready</div>
-    </AppLayout>
+    <BrowserRouter>
+      <AppLayout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </AppLayout>
+    </BrowserRouter>
   )
 }

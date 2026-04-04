@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Container } from './container'
 
 export function Navbar() {
@@ -5,18 +6,20 @@ export function Navbar() {
     <header className="border-b">
       <Container>
         <div className="flex h-16 items-center justify-between">
-          <div className="font-semibold">Rodo</div>
+          <Link to="/" className="font-semibold">
+            Rodo
+          </Link>
 
           <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition">
+            <Link to="/about" className="hover:text-foreground transition">
               About
-            </a>
-            <a href="#" className="hover:text-foreground transition">
+            </Link>
+            <Link to="/projects" className="hover:text-foreground transition">
               Projects
-            </a>
-            <a href="#" className="hover:text-foreground transition">
+            </Link>
+            <Link to="/contact" className="hover:text-foreground transition">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       </Container>
