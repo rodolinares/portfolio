@@ -1,9 +1,11 @@
-import { Section } from '@/components/shared/section'
+import { Hero } from '@/components/sections/hero'
+import { ProfessionalSummary } from '@/components/sections/summary'
 
 export function HomePage() {
   return (
-    <Section>
-      <h1 className="text-2xl font-semibold">Home</h1>
-    </Section>
+    <>
+      <Hero />
+      <ProfessionalSummary />
+    </>
   )
 }
