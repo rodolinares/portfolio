@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { Container } from './container'
 
 export function Navbar() {
@@ -6,20 +6,35 @@ export function Navbar() {
     <header className="border-b">
       <Container>
         <div className="flex h-16 items-center justify-between">
-          <Link to="/" className="font-semibold">
+          <NavLink to="/" className="font-semibold">
             Rodo
-          </Link>
+          </NavLink>
 
           <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-            <Link to="/about" className="hover:text-foreground transition">
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? 'text-foreground font-medium' : 'hover:text-foreground transition'
+              }
+            >
               About
-            </Link>
-            <Link to="/projects" className="hover:text-foreground transition">
+            </NavLink>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                isActive ? 'text-foreground font-medium' : 'hover:text-foreground transition'
+              }
+            >
               Projects
-            </Link>
-            <Link to="/contact" className="hover:text-foreground transition">
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? 'text-foreground font-medium' : 'hover:text-foreground transition'
+              }
+            >
               Contact
-            </Link>
+            </NavLink>
           </nav>
         </div>
       </Container>
