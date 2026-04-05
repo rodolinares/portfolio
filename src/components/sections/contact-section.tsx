@@ -1,7 +1,7 @@
 import { Section } from '@/components/shared/section'
 import { SectionHeader } from '@/components/shared/section-header'
 import { Button } from '@/components/ui/button'
-import { contact } from '@/data/contact'
+import { contact } from '@/data/contact-data'
 
 type Props = {
   className?: string

@@ -5,18 +5,19 @@ import { Link } from 'react-router-dom'
 export function Hero() {
   return (
     <Section className="py-16">
-      <div className="max-w-3xl space-y-6">
+      <div className="space-y-6">
         <p className="text-sm text-muted-foreground">Software Engineer</p>
 
         <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-          I build reliable, scalable applications with a focus on clean architecture and long-term
-          maintainability.
+          I build scalable, production-grade web applications with a focus on reliability and
+          long-term maintainability.
         </h1>
 
         <p className="text-lg text-muted-foreground">
-          Experienced in TypeScript, React, and modern frontend ecosystems, with a professional
-          background in delivering production systems under strict constraints and long-term
-          ownership.
+          Over 8 years of experience working with TypeScript, Angular, and Node.js across fintech,
+          retail, and startup environments. I have contributed to payment platforms, microservices
+          architectures, and complex frontend systems, often under real-world constraints where
+          stability and consistency are critical.
         </p>
 
         <div className="flex items-center gap-4 pt-4">

@@ -8,7 +8,7 @@ type Props = {
 export function AboutSection({ className }: Props) {
   return (
     <Section className={className || 'pb-16'}>
-      <div className="space-y-10 max-w-3xl">
+      <div className="space-y-10">
         <SectionHeader
           title="About"
           description="A more complete view of my background, approach, and work style."

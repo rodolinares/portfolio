@@ -1,22 +1,8 @@
 import { Section } from '@/components/shared/section'
 import { SectionHeader } from '@/components/shared/section-header'
+import { experience } from '@/data/experience-data'
 
-type ExperienceItem = {
-  role: string
-  company: string
-  period: string
-  description: string
-}
-
-const experience: ExperienceItem[] = [
-  {
-    role: 'Software Engineer',
-    company: 'Confidential (NDA)',
-    period: '20XX — Present',
-    description:
-      'Worked on production systems with a focus on reliability, maintainability, and long-term scalability. Contributed to architecture decisions and ongoing system evolution under real-world constraints.'
-  }
-]
+const data = experience
 
 export function Experience() {
   return (
@@ -28,7 +14,7 @@ export function Experience() {
         />
 
         <div className="space-y-8">
-          {experience.map((item, index) => (
+          {data.map((item, index) => (
             <div key={index} className="space-y-2">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                 <h3 className="font-medium">{item.role}</h3>
@@ -37,7 +23,11 @@ export function Experience() {
 
               <p className="text-sm text-muted-foreground">{item.company}</p>
 
-              <p className="text-muted-foreground">{item.description}</p>
+              {item.description.map((desc, idx) => (
+                <p key={idx} className="text-sm text-muted-foreground">
+                  {desc}
+                </p>
+              ))}
             </div>
           ))}
         </div>

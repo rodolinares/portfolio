@@ -1,6 +1,6 @@
 import { Section } from '@/components/shared/section'
 import { SectionHeader } from '@/components/shared/section-header'
-import { projects } from '@/data/projects'
+import { projects } from '@/data/projects-data'
 import { ProjectCard } from './project-card'
 import { ProjectsEmpty } from './projects-empty'
 

@@ -1,25 +1,8 @@
 import { Section } from '@/components/shared/section'
 import { SectionHeader } from '@/components/shared/section-header'
+import { skills } from '@/data/skills-data'
 
-type SkillGroup = {
-  title: string
-  items: string[]
-}
-
-const skills: SkillGroup[] = [
-  {
-    title: 'Core',
-    items: ['TypeScript', 'JavaScript', 'React']
-  },
-  {
-    title: 'Frontend',
-    items: ['Tailwind CSS', 'HTML', 'CSS']
-  },
-  {
-    title: 'Tools & Practices',
-    items: ['Git', 'REST APIs', 'Testing']
-  }
-]
+const data = skills
 
 export function Skills() {
   return (
@@ -31,7 +14,7 @@ export function Skills() {
         />
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {skills.map(group => (
+          {data.map(group => (
             <div key={group.title} className="space-y-3">
               <h3 className="font-medium">{group.title}</h3>
               <ul className="space-y-1 text-sm text-muted-foreground">

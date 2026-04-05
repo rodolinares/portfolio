@@ -3,20 +3,22 @@ import { Section } from '@/components/shared/section'
 export function ProfessionalSummary() {
   return (
     <Section className="pb-16">
-      <div className="max-w-3xl space-y-6">
+      <div className="space-y-6">
         <h2 className="text-2xl font-semibold tracking-tight">Professional Summary</h2>
 
         <p className="text-muted-foreground">
-          I am a software engineer with experience building and maintaining production-grade systems
-          in environments where code quality, reliability, and long-term evolution are critical.
-          Much of my work has been developed under non-disclosure agreements, which limits public
-          visibility but reflects exposure to real-world complexity and responsibility.
+          Software Engineer with over 8 years of experience developing and maintaining production
+          web applications, primarily in TypeScript-based ecosystems. I have worked across fintech,
+          retail, and startup environments, contributing to systems that require reliability,
+          scalability, and continuous evolution.
         </p>
 
         <p className="text-muted-foreground">
-          My focus is on writing clear, maintainable code, designing systems that scale, and making
-          pragmatic technical decisions that hold up over time. I am particularly comfortable in
-          TypeScript-based stacks and modern frontend architectures.
+          Much of my work has been developed under non-disclosure agreements, but it includes
+          payment platforms, microservices architectures, and complex frontend applications with
+          state management and real-time interactions. I focus on building systems that remain
+          maintainable over time and can adapt to changing requirements without unnecessary
+          complexity.
         </p>
       </div>
     </Section>

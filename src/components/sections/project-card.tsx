@@ -1,8 +1,8 @@
-import type { Project } from '@/types/project'
+import type { ProjectItem } from '@/types/project-item'
 import { Button } from '@/components/ui/button'
 
 type ProjectCardProps = {
-  project: Project
+  project: ProjectItem
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
