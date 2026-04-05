@@ -1,9 +1,5 @@
-import { Section } from '@/components/shared/section'
+import { Contact } from '@/components/sections/contact'
 
 export function ContactPage() {
-  return (
-    <Section>
-      <h1 className="text-2xl font-semibold">Contact</h1>
-    </Section>
-  )
+  return <Contact className="py-16" />
 }
