@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { AppLayout } from '@/components/layout/app-layout'
 import { ThemeProvider } from '@/components/theme-provider'
 
@@ -10,7 +10,7 @@ import { ContactPage } from '@/pages/contact'
 export default function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="theme">
-      <BrowserRouter>
+      <HashRouter>
         <AppLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -19,7 +19,7 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </AppLayout>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   )
 }
