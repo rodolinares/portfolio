@@ -2,8 +2,8 @@ import { Hero } from '@/components/sections/hero'
 import { ProfessionalSummary } from '@/components/sections/summary'
 import { Experience } from '@/components/sections/experience'
 import { Skills } from '@/components/sections/skills'
-import { Projects } from '@/components/sections/projects'
-import { Contact } from '@/components/sections/contact'
+import { ProjectsSection } from '@/components/sections/projects-section'
+import { ContactSection } from '@/components/sections/contact-section'
 
 export function HomePage() {
   return (
@@ -12,8 +12,8 @@ export function HomePage() {
       <ProfessionalSummary />
       <Experience />
       <Skills />
-      <Projects />
-      <Contact />
+      <ProjectsSection />
+      <ContactSection />
     </>
   )
 }

@@ -1,9 +1,11 @@
-import { Section } from '@/components/shared/section'
+import { AboutSection } from '@/components/sections/about-section'
+import { WorkApproach } from '@/components/sections/work-approach'
 
 export function AboutPage() {
   return (
-    <Section>
-      <h1 className="text-2xl font-semibold">About</h1>
-    </Section>
+    <>
+      <AboutSection className="py-16" />
+      <WorkApproach />
+    </>
   )
 }

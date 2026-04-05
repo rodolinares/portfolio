@@ -4,11 +4,11 @@ import { projects } from '@/data/projects'
 import { ProjectCard } from './project-card'
 import { ProjectsEmpty } from './projects-empty'
 
-type ProjectsProps = {
+type Props = {
   className?: string
 }
 
-export function Projects({ className }: ProjectsProps) {
+export function ProjectsSection({ className }: Props) {
   return (
     <Section className={className || 'pb-16'}>
       <div className="space-y-10">

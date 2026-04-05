@@ -1,5 +1,5 @@
-import { Contact } from '@/components/sections/contact'
+import { ContactSection } from '@/components/sections/contact-section'
 
 export function ContactPage() {
-  return <Contact className="py-16" />
+  return <ContactSection className="py-16" />
 }

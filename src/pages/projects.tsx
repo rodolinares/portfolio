@@ -1,5 +1,5 @@
-import { Projects } from '@/components/sections/projects'
+import { ProjectsSection } from '@/components/sections/projects-section'
 
 export function ProjectsPage() {
-  return <Projects className="py-16" />
+  return <ProjectsSection className="py-16" />
 }

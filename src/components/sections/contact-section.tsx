@@ -3,11 +3,11 @@ import { SectionHeader } from '@/components/shared/section-header'
 import { Button } from '@/components/ui/button'
 import { contact } from '@/data/contact'
 
-type ContactProps = {
+type Props = {
   className?: string
 }
 
-export function Contact({ className }: ContactProps) {
+export function ContactSection({ className }: Props) {
   return (
     <Section className={className || 'pb-16'}>
       <div className="space-y-10">
