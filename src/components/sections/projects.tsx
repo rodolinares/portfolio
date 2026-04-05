@@ -10,7 +10,7 @@ type ProjectsProps = {
 
 export function Projects({ className }: ProjectsProps) {
   return (
-    <Section className={className || 'pb-15'}>
+    <Section className={className || 'pb-16'}>
       <div className="space-y-10">
         <SectionHeader title="Projects" description="Selected work and case studies." />
 

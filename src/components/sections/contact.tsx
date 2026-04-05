@@ -9,7 +9,7 @@ type ContactProps = {
 
 export function Contact({ className }: ContactProps) {
   return (
-    <Section className={className || 'pb-15'}>
+    <Section className={className || 'pb-16'}>
       <div className="space-y-10">
         <SectionHeader
           title="Contact"

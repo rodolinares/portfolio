@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export function Hero() {
   return (
-    <Section className="pt-16 pb-15">
+    <Section className="py-16">
       <div className="max-w-3xl space-y-6">
         <p className="text-sm text-muted-foreground">Software Engineer</p>
 

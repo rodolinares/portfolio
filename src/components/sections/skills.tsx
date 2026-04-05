@@ -23,7 +23,7 @@ const skills: SkillGroup[] = [
 
 export function Skills() {
   return (
-    <Section className="pb-15">
+    <Section className="pb-16">
       <div className="space-y-10">
         <SectionHeader
           title="Skills"

@@ -2,7 +2,7 @@ import { Section } from '@/components/shared/section'
 
 export function ProfessionalSummary() {
   return (
-    <Section className="pb-15">
+    <Section className="pb-16">
       <div className="max-w-3xl space-y-6">
         <h2 className="text-2xl font-semibold tracking-tight">Professional Summary</h2>
 
