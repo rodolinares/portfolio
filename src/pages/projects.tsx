@@ -1,9 +1,5 @@
-import { Section } from '@/components/shared/section'
+import { Projects } from '@/components/sections/projects'
 
 export function ProjectsPage() {
-  return (
-    <Section>
-      <h1 className="text-2xl font-semibold">Projects</h1>
-    </Section>
-  )
+  return <Projects className="py-16" />
 }
