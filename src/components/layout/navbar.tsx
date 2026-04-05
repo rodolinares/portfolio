@@ -7,7 +7,7 @@ export function Navbar() {
       <Container>
         <div className="flex h-16 items-center justify-between">
           <NavLink to="/" className="font-semibold">
-            Rodo
+            Rodrigo Linares
           </NavLink>
 
           <nav className="flex items-center gap-6 text-sm text-muted-foreground">
@@ -19,6 +19,7 @@ export function Navbar() {
             >
               About
             </NavLink>
+
             <NavLink
               to="/projects"
               className={({ isActive }) =>
@@ -27,6 +28,7 @@ export function Navbar() {
             >
               Projects
             </NavLink>
+
             <NavLink
               to="/contact"
               className={({ isActive }) =>
