@@ -9,28 +9,26 @@ export function WorkApproach() {
 
         <div className="space-y-4 text-muted-foreground">
           <p>
-            I work primarily on production systems that require stability, consistency, and
-            long-term maintainability. I prioritize clarity in code structure and avoid unnecessary
-            abstraction, especially in large or evolving codebases.
+            Engineering decisions are driven by clarity, constraints, and long-term impact rather
+            than short-term convenience. Systems are designed with the expectation that they will
+            evolve, which places emphasis on structure, readability, and consistency.
           </p>
 
           <p>
-            I am comfortable working within established systems, improving them incrementally rather
-            than rewriting them. Much of my experience involves maintaining and extending
-            applications that are already in use, where reliability and continuity are critical.
+            Preference is given to explicit solutions over clever abstractions. Code that is easy to
+            understand and modify tends to scale better across time and teams than code optimized
+            for brevity or novelty.
           </p>
 
           <p>
-            I focus on making systems easier to reason about over time—through better structure,
-            clearer boundaries, and predictable behavior. This is particularly important in frontend
-            applications with complex state management and backend systems with multiple
-            integrations.
+            Understanding the problem space is prioritized before committing to implementation.
+            Technical choices are evaluated in the context of real constraints (existing systems,
+            team dynamics, and product requirements) rather than in isolation.
           </p>
 
           <p>
-            I also have experience working in distributed teams and remote environments, where clear
-            communication and alignment are necessary to maintain development velocity and code
-            quality.
+            Changes to existing systems are approached incrementally. Refactoring and improvement
+            are favored over large rewrites, reducing risk while maintaining forward progress.
           </p>
         </div>
       </div>

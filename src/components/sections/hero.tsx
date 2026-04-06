@@ -14,10 +14,8 @@ export function Hero() {
         </h1>
 
         <p className="text-lg text-muted-foreground">
-          Over 8 years of experience working with TypeScript, Angular, and Node.js across fintech,
-          retail, and startup environments. I have contributed to payment platforms, microservices
-          architectures, and complex frontend systems, often under real-world constraints where
-          stability and consistency are critical.
+          Experience across fintech, retail, and startup environments, contributing to systems that
+          operate under real-world constraints and require continuous evolution.
         </p>
 
         <div className="flex items-center gap-4 pt-4">

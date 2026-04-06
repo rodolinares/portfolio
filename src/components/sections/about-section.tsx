@@ -16,22 +16,22 @@ export function AboutSection({ className }: Props) {
 
         <div className="space-y-6 text-muted-foreground">
           <p>
-            I am a software engineer focused on building systems that remain maintainable and
-            reliable over time. My work has largely taken place in professional environments where
-            long-term ownership, stability, and clarity of code are more important than short-term
-            output.
+            I'm a Software engineer with over 8 years of experience working primarily with TypeScript,
+            Angular, and Node.js. Career development has taken place across fintech, retail, and
+            startup environments, contributing to both frontend and backend systems.
           </p>
 
           <p>
-            A significant portion of my experience comes from projects under non-disclosure
-            agreements. While that limits what I can show publicly, it reflects exposure to real
-            production constraints, evolving requirements, and systems that cannot afford failure.
+            My work has included payment platforms, microservices architectures, and large-scale
+            frontend applications, often in contexts where stability, consistency, and performance
+            are critical. These systems required balancing delivery speed with long-term
+            maintainability.
           </p>
 
           <p>
-            I tend to favor simple, well-structured solutions over clever abstractions. I value
-            readability, explicitness, and consistency, especially in collaborative environments
-            where code must be understood and maintained by others over time.
+            A significant portion of this experience has been developed under non-disclosure
+            agreements, limiting public visibility while still involving production systems that are
+            actively used and continuously evolving.
           </p>
         </div>
       </div>
