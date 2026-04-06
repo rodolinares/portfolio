@@ -17,27 +17,34 @@ export function ContactSection({ className }: Props) {
         />
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-          <Button>
-            <a href={`mailto:${contact.email}`}>{contact.email}</a>
-          </Button>
+          <Button render={<a href={`mailto:${contact.email}`}>{contact.email}</a>}></Button>
 
-          <Button variant="outline">
-            <a href={contact.linkedin} target="_blank">
-              LinkedIn
-            </a>
-          </Button>
+          <Button
+            variant="outline"
+            render={
+              <a href={contact.linkedin} target="_blank">
+                LinkedIn
+              </a>
+            }
+          ></Button>
 
-          <Button variant="outline">
-            <a href={contact.github} target="_blank">
-              GitHub
-            </a>
-          </Button>
+          <Button
+            variant="outline"
+            render={
+              <a href={contact.github} target="_blank">
+                GitHub
+              </a>
+            }
+          ></Button>
 
-          <Button variant="ghost">
-            <a href={contact.resume} target="_blank">
-              Resume
-            </a>
-          </Button>
+          <Button
+            variant="ghost"
+            render={
+              <a href={contact.resume} target="_blank">
+                Resume
+              </a>
+            }
+          ></Button>
         </div>
       </div>
     </Section>
